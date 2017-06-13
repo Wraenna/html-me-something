@@ -1,0 +1,96 @@
+body {
+  background-color: #9bc1c7;
+}
+
+header, main, footer {
+  background-color: #FFFFFF;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+header, footer {
+  margin: auto;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+  width: 80%;
+
+}
+
+main {
+  font-size: 0.875em;
+  margin: auto;
+  padding: 0em;
+  width: 80%;
+}
+
+header h2 {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: #3F3F3F;
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+  padding: 0;
+
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 0.75em;
+}
+
+a:visited {
+  color: #3F3F3F;
+
+}
+
+a:hover {
+  color: #349bc2;
+
+}
+
+main article {
+  padding: 0em;
+}
+
+main article section h3 {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #3F3F3F;
+  text-align: center;
+  padding-top: 1em;
+
+}
+
+main article section p {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+
+}
+
+footer {
+  color: #AAAAAA;
+  font-size: 0.75em;
+  text-align: center;
+
+}
