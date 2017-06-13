@@ -83,14 +83,51 @@ main article section p {
 }
 
 img {
-  width: 100%;
-  max-width: 100%;
+  width: 60%;
+  max-width: 60%;
+  float: left;
 
+}
+
+#description {
+  width: 35%;
+  max-width: 35%;
+  float: left;
+  padding-right: 0.5em;
+  font-size: 0.875em;
+
+}
+
+@media screen and (max-width: 800px) {
+  #description {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.clearfix{
+    clear:both
 }
 
 footer {
   color: #AAAAAA;
   font-size: 0.75em;
   text-align: center;
+
+}
+
+ul {
+  list-style: none;
+
+}
+
+audio {
+  width: 40%;
+  max-width: 40%;
 
 }
