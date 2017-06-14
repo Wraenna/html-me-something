@@ -5,21 +5,18 @@ body {
 header, main, footer {
   background-color: #FFFFFF;
   font-family: "Open Sans", Arial, sans-serif;
+  margin: auto;
+  width: 80%;
 }
 
 header, footer {
-  margin: auto;
   padding-top: 0.125em;
   padding-bottom: 0.125em;
-  width: 80%;
-
 }
 
 main {
   font-size: 0.875em;
-  margin: auto;
   padding: 0em;
-  width: 80%;
 }
 
 header h2 {
@@ -32,7 +29,6 @@ header h2 {
 
 nav ul {
   text-align: center;
-  padding: 0;
 
 }
 
@@ -45,7 +41,7 @@ nav ul li {
 
 }
 
-nav ul li a {
+nav ul li a:link {
   text-decoration: none;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 0.75em;
@@ -59,10 +55,6 @@ a:visited {
 a:hover {
   color: #349bc2;
 
-}
-
-main article {
-  padding: 0em;
 }
 
 main article section h3 {
@@ -79,6 +71,11 @@ main article section p {
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 0.5em;
+
+}
+
+ul {
+  list-style: none;
 
 }
 
@@ -118,16 +115,5 @@ footer {
   color: #AAAAAA;
   font-size: 0.75em;
   text-align: center;
-
-}
-
-ul {
-  list-style: none;
-
-}
-
-audio {
-  width: 40%;
-  max-width: 40%;
 
 }
