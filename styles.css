@@ -25,15 +25,18 @@ header h2 {
   font-size: 2em;
   color: #3F3F3F;
   text-align: center;
+  padding: 0em;
 }
 
 nav ul {
   text-align: center;
+  padding: 0em;
 
 }
 
 nav ul li {
   display: inline-block;
+  text-align: center;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0em;
